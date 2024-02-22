@@ -1,0 +1,2462 @@
+[
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cf8"
+    },
+    "id": "1",
+    "countrySortName": "AF",
+    "countryName": "Afghanistan", 
+    "countryCode": "93",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cf9"
+    },
+    "id": "2",
+    "countrySortName": "AL",
+    "countryName": "Albania",
+    "countryCode": "355",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cfa"
+    },
+    "id": "3",
+    "countrySortName": "DZ",
+    "countryName": "Algeria",
+    "countryCode": "213",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cfb"
+    },
+    "id": "4",
+    "countrySortName": "AS",
+    "countryName": "American Samoa",
+    "countryCode": "1684",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cfc"
+    },
+    "id": "5",
+    "countrySortName": "AD",
+    "countryName": "Andorra",
+    "countryCode": "376",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cfd"
+    },
+    "id": "6",
+    "countrySortName": "AO",
+    "countryName": "Angola",
+    "countryCode": "244",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cfe"
+    },
+    "id": "7",
+    "countrySortName": "AI",
+    "countryName": "Anguilla",
+    "countryCode": "1264",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02cff"
+    },
+    "id": "8",
+    "countrySortName": "AQ",
+    "countryName": "Antarctica",
+    "countryCode": "0",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d00"
+    },
+    "id": "9",
+    "countrySortName": "AG",
+    "countryName": "Antigua And Barbuda",
+    "countryCode": "1268",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d01"
+    },
+    "id": "10",
+    "countrySortName": "AR",
+    "countryName": "Argentina",
+    "countryCode": "54",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d02"
+    },
+    "id": "11",
+    "countrySortName": "AM",
+    "countryName": "Armenia",
+    "countryCode": "374",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d03"
+    },
+    "id": "12",
+    "countrySortName": "AW",
+    "countryName": "Aruba",
+    "countryCode": "297",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d04"
+    },
+    "id": "13",
+    "countrySortName": "AU",
+    "countryName": "Australia",
+    "countryCode": "61",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d05"
+    },
+    "id": "14",
+    "countrySortName": "AT",
+    "countryName": "Austria",
+    "countryCode": "43",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d06"
+    },
+    "id": "15",
+    "countrySortName": "AZ",
+    "countryName": "Azerbaijan",
+    "countryCode": "994",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d07"
+    },
+    "id": "16",
+    "countrySortName": "BS",
+    "countryName": "Bahamas The",
+    "countryCode": "1242",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d08"
+    },
+    "id": "17",
+    "countrySortName": "BH",
+    "countryName": "Bahrain",
+    "countryCode": "973",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d09"
+    },
+    "id": "18",
+    "countrySortName": "BD",
+    "countryName": "Bangladesh",
+    "countryCode": "880",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d0a"
+    },
+    "id": "19",
+    "countrySortName": "BB",
+    "countryName": "Barbados",
+    "countryCode": "1246",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d0b"
+    },
+    "id": "20",
+    "countrySortName": "BY",
+    "countryName": "Belarus",
+    "countryCode": "375",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d0c"
+    },
+    "id": "21",
+    "countrySortName": "BE",
+    "countryName": "Belgium",
+    "countryCode": "32",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d0d"
+    },
+    "id": "22",
+    "countrySortName": "BZ",
+    "countryName": "Belize",
+    "countryCode": "501",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d0e"
+    },
+    "id": "23",
+    "countrySortName": "BJ",
+    "countryName": "Benin",
+    "countryCode": "229",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d0f"
+    },
+    "id": "24",
+    "countrySortName": "BM",
+    "countryName": "Bermuda",
+    "countryCode": "1441",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d10"
+    },
+    "id": "25",
+    "countrySortName": "BT",
+    "countryName": "Bhutan",
+    "countryCode": "975",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d11"
+    },
+    "id": "26",
+    "countrySortName": "BO",
+    "countryName": "Bolivia",
+    "countryCode": "591",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d12"
+    },
+    "id": "27",
+    "countrySortName": "BA",
+    "countryName": "Bosnia and Herzegovina",
+    "countryCode": "387",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d13"
+    },
+    "id": "28",
+    "countrySortName": "BW",
+    "countryName": "Botswana",
+    "countryCode": "267",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d14"
+    },
+    "id": "29",
+    "countrySortName": "BV",
+    "countryName": "Bouvet Island",
+    "countryCode": "0",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d15"
+    },
+    "id": "30",
+    "countrySortName": "BR",
+    "countryName": "Brazil",
+    "countryCode": "55",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d16"
+    },
+    "id": "31",
+    "countrySortName": "IO",
+    "countryName": "British Indian Ocean Territory",
+    "countryCode": "246",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d17"
+    },
+    "id": "32",
+    "countrySortName": "BN",
+    "countryName": "Brunei",
+    "countryCode": "673",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d18"
+    },
+    "id": "33",
+    "countrySortName": "BG",
+    "countryName": "Bulgaria",
+    "countryCode": "359",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d19"
+    },
+    "id": "34",
+    "countrySortName": "BF",
+    "countryName": "Burkina Faso",
+    "countryCode": "226",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d1a"
+    },
+    "id": "35",
+    "countrySortName": "BI",
+    "countryName": "Burundi",
+    "countryCode": "257",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d1b"
+    },
+    "id": "36",
+    "countrySortName": "KH",
+    "countryName": "Cambodia",
+    "countryCode": "855",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d1c"
+    },
+    "id": "37",
+    "countrySortName": "CM",
+    "countryName": "Cameroon",
+    "countryCode": "237",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d1d"
+    },
+    "id": "38",
+    "countrySortName": "CA",
+    "countryName": "Canada",
+    "countryCode": "1",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d1e"
+    },
+    "id": "39",
+    "countrySortName": "CV",
+    "countryName": "Cape Verde",
+    "countryCode": "238",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d1f"
+    },
+    "id": "40",
+    "countrySortName": "KY",
+    "countryName": "Cayman Islands",
+    "countryCode": "1345",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d20"
+    },
+    "id": "41",
+    "countrySortName": "CF",
+    "countryName": "Central African Republic",
+    "countryCode": "236",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d21"
+    },
+    "id": "42",
+    "countrySortName": "TD",
+    "countryName": "Chad",
+    "countryCode": "235",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d22"
+    },
+    "id": "43",
+    "countrySortName": "CL",
+    "countryName": "Chile",
+    "countryCode": "56",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d23"
+    },
+    "id": "44",
+    "countrySortName": "CN",
+    "countryName": "China",
+    "countryCode": "86",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d24"
+    },
+    "id": "45",
+    "countrySortName": "CX",
+    "countryName": "Christmas Island",
+    "countryCode": "61",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d25"
+    },
+    "id": "46",
+    "countrySortName": "CC",
+    "countryName": "Cocos (Keeling) Islands",
+    "countryCode": "672",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d26"
+    },
+    "id": "47",
+    "countrySortName": "CO",
+    "countryName": "Colombia",
+    "countryCode": "57",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d27"
+    },
+    "id": "48",
+    "countrySortName": "KM",
+    "countryName": "Comoros",
+    "countryCode": "269",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d28"
+    },
+    "id": "49",
+    "countrySortName": "CG",
+    "countryName": "Republic Of The Congo",
+    "countryCode": "242",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d29"
+    },
+    "id": "50",
+    "countrySortName": "CD",
+    "countryName": "Democratic Republic Of The Congo",
+    "countryCode": "242",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d2a"
+    },
+    "id": "51",
+    "countrySortName": "CK",
+    "countryName": "Cook Islands",
+    "countryCode": "682",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d2b"
+    },
+    "id": "52",
+    "countrySortName": "CR",
+    "countryName": "Costa Rica",
+    "countryCode": "506",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d2c"
+    },
+    "id": "53",
+    "countrySortName": "CI",
+    "countryName": "Cote D'Ivoire (Ivory Coast)",
+    "countryCode": "225",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d2d"
+    },
+    "id": "54",
+    "countrySortName": "HR",
+    "countryName": "Croatia (Hrvatska)",
+    "countryCode": "385",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d2e"
+    },
+    "id": "55",
+    "countrySortName": "CU",
+    "countryName": "Cuba",
+    "countryCode": "53",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d2f"
+    },
+    "id": "56",
+    "countrySortName": "CY",
+    "countryName": "Cyprus",
+    "countryCode": "357",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d30"
+    },
+    "id": "57",
+    "countrySortName": "CZ",
+    "countryName": "Czech Republic",
+    "countryCode": "420",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d31"
+    },
+    "id": "58",
+    "countrySortName": "DK",
+    "countryName": "Denmark",
+    "countryCode": "45",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d32"
+    },
+    "id": "59",
+    "countrySortName": "DJ",
+    "countryName": "Djibouti",
+    "countryCode": "253",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d33"
+    },
+    "id": "60",
+    "countrySortName": "DM",
+    "countryName": "Dominica",
+    "countryCode": "1767",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d34"
+    },
+    "id": "61",
+    "countrySortName": "DO",
+    "countryName": "Dominican Republic",
+    "countryCode": "1809",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d35"
+    },
+    "id": "62",
+    "countrySortName": "TP",
+    "countryName": "East Timor",
+    "countryCode": "670",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d36"
+    },
+    "id": "63",
+    "countrySortName": "EC",
+    "countryName": "Ecuador",
+    "countryCode": "593",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d37"
+    },
+    "id": "64",
+    "countrySortName": "EG",
+    "countryName": "Egypt",
+    "countryCode": "20",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d38"
+    },
+    "id": "65",
+    "countrySortName": "SV",
+    "countryName": "El Salvador",
+    "countryCode": "503",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d39"
+    },
+    "id": "66",
+    "countrySortName": "GQ",
+    "countryName": "Equatorial Guinea",
+    "countryCode": "240",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d3a"
+    },
+    "id": "67",
+    "countrySortName": "ER",
+    "countryName": "Eritrea",
+    "countryCode": "291",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d3b"
+    },
+    "id": "68",
+    "countrySortName": "EE",
+    "countryName": "Estonia",
+    "countryCode": "372",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d3c"
+    },
+    "id": "69",
+    "countrySortName": "ET",
+    "countryName": "Ethiopia",
+    "countryCode": "251",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d3d"
+    },
+    "id": "70",
+    "countrySortName": "XA",
+    "countryName": "External Territories of Australia",
+    "countryCode": "61",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d3e"
+    },
+    "id": "71",
+    "countrySortName": "FK",
+    "countryName": "Falkland Islands",
+    "countryCode": "500",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d3f"
+    },
+    "id": "72",
+    "countrySortName": "FO",
+    "countryName": "Faroe Islands",
+    "countryCode": "298",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d40"
+    },
+    "id": "73",
+    "countrySortName": "FJ",
+    "countryName": "Fiji Islands",
+    "countryCode": "679",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d41"
+    },
+    "id": "74",
+    "countrySortName": "FI",
+    "countryName": "Finland",
+    "countryCode": "358",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d42"
+    },
+    "id": "75",
+    "countrySortName": "FR",
+    "countryName": "France",
+    "countryCode": "33",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d43"
+    },
+    "id": "76",
+    "countrySortName": "GF",
+    "countryName": "French Guiana",
+    "countryCode": "594",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d44"
+    },
+    "id": "77",
+    "countrySortName": "PF",
+    "countryName": "French Polynesia",
+    "countryCode": "689",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d45"
+    },
+    "id": "78",
+    "countrySortName": "TF",
+    "countryName": "French Southern Territories",
+    "countryCode": "0",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d46"
+    },
+    "id": "79",
+    "countrySortName": "GA",
+    "countryName": "Gabon",
+    "countryCode": "241",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d47"
+    },
+    "id": "80",
+    "countrySortName": "GM",
+    "countryName": "Gambia The",
+    "countryCode": "220",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d48"
+    },
+    "id": "81",
+    "countrySortName": "GE",
+    "countryName": "Georgia",
+    "countryCode": "995",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d49"
+    },
+    "id": "82",
+    "countrySortName": "DE",
+    "countryName": "Germany",
+    "countryCode": "49",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d4a"
+    },
+    "id": "83",
+    "countrySortName": "GH",
+    "countryName": "Ghana",
+    "countryCode": "233",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d4b"
+    },
+    "id": "84",
+    "countrySortName": "GI",
+    "countryName": "Gibraltar",
+    "countryCode": "350",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d4c"
+    },
+    "id": "85",
+    "countrySortName": "GR",
+    "countryName": "Greece",
+    "countryCode": "30",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d4d"
+    },
+    "id": "86",
+    "countrySortName": "GL",
+    "countryName": "Greenland",
+    "countryCode": "299",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d4e"
+    },
+    "id": "87",
+    "countrySortName": "GD",
+    "countryName": "Grenada",
+    "countryCode": "1473",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d4f"
+    },
+    "id": "88",
+    "countrySortName": "GP",
+    "countryName": "Guadeloupe",
+    "countryCode": "590",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d50"
+    },
+    "id": "89",
+    "countrySortName": "GU",
+    "countryName": "Guam",
+    "countryCode": "1671",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d51"
+    },
+    "id": "90",
+    "countrySortName": "GT",
+    "countryName": "Guatemala",
+    "countryCode": "502",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d52"
+    },
+    "id": "91",
+    "countrySortName": "XU",
+    "countryName": "Guernsey and Alderney",
+    "countryCode": "44",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d53"
+    },
+    "id": "92",
+    "countrySortName": "GN",
+    "countryName": "Guinea",
+    "countryCode": "224",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d54"
+    },
+    "id": "93",
+    "countrySortName": "GW",
+    "countryName": "Guinea-Bissau",
+    "countryCode": "245",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d55"
+    },
+    "id": "94",
+    "countrySortName": "GY",
+    "countryName": "Guyana",
+    "countryCode": "592",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d56"
+    },
+    "id": "95",
+    "countrySortName": "HT",
+    "countryName": "Haiti",
+    "countryCode": "509",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d57"
+    },
+    "id": "96",
+    "countrySortName": "HM",
+    "countryName": "Heard and McDonald Islands",
+    "countryCode": "0",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d58"
+    },
+    "id": "97",
+    "countrySortName": "HN",
+    "countryName": "Honduras",
+    "countryCode": "504",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d59"
+    },
+    "id": "98",
+    "countrySortName": "HK",
+    "countryName": "Hong Kong S.A.R.",
+    "countryCode": "852",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d5a"
+    },
+    "id": "99",
+    "countrySortName": "HU",
+    "countryName": "Hungary",
+    "countryCode": "36",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d5b"
+    },
+    "id": "100",
+    "countrySortName": "IS",
+    "countryName": "Iceland",
+    "countryCode": "354",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d5c"
+    },
+    "id": "101",
+    "countrySortName": "IN",
+    "countryName": "India",
+    "countryCode": "91",
+    "pattern": "/^(\\+)?(91)?0?\\d{10}$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d5d"
+    },
+    "id": "102",
+    "countrySortName": "ID",
+    "countryName": "Indonesia",
+    "countryCode": "62",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d5e"
+    },
+    "id": "103",
+    "countrySortName": "IR",
+    "countryName": "Iran",
+    "countryCode": "98",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d5f"
+    },
+    "id": "104",
+    "countrySortName": "IQ",
+    "countryName": "Iraq",
+    "countryCode": "964",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d60"
+    },
+    "id": "105",
+    "countrySortName": "IE",
+    "countryName": "Ireland",
+    "countryCode": "353",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d61"
+    },
+    "id": "106",
+    "countrySortName": "IL",
+    "countryName": "Israel",
+    "countryCode": "972",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d62"
+    },
+    "id": "107",
+    "countrySortName": "IT",
+    "countryName": "Italy",
+    "countryCode": "39",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d63"
+    },
+    "id": "108",
+    "countrySortName": "JM",
+    "countryName": "Jamaica",
+    "countryCode": "1876",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d64"
+    },
+    "id": "109",
+    "countrySortName": "JP",
+    "countryName": "Japan",
+    "countryCode": "81",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d65"
+    },
+    "id": "110",
+    "countrySortName": "XJ",
+    "countryName": "Jersey",
+    "countryCode": "44",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d66"
+    },
+    "id": "111",
+    "countrySortName": "JO",
+    "countryName": "Jordan",
+    "countryCode": "962",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d67"
+    },
+    "id": "112",
+    "countrySortName": "KZ",
+    "countryName": "Kazakhstan",
+    "countryCode": "7",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d68"
+    },
+    "id": "113",
+    "countrySortName": "KE",
+    "countryName": "Kenya",
+    "countryCode": "254",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d69"
+    },
+    "id": "114",
+    "countrySortName": "KI",
+    "countryName": "Kiribati",
+    "countryCode": "686",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d6a"
+    },
+    "id": "115",
+    "countrySortName": "KP",
+    "countryName": "Korea North",
+    "countryCode": "850",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d6b"
+    },
+    "id": "116",
+    "countrySortName": "KR",
+    "countryName": "Korea South",
+    "countryCode": "82",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d6c"
+    },
+    "id": "117",
+    "countrySortName": "KW",
+    "countryName": "Kuwait",
+    "countryCode": "965",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d6d"
+    },
+    "id": "118",
+    "countrySortName": "KG",
+    "countryName": "Kyrgyzstan",
+    "countryCode": "996",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d6e"
+    },
+    "id": "119",
+    "countrySortName": "LA",
+    "countryName": "Laos",
+    "countryCode": "856",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d6f"
+    },
+    "id": "120",
+    "countrySortName": "LV",
+    "countryName": "Latvia",
+    "countryCode": "371",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d70"
+    },
+    "id": "121",
+    "countrySortName": "LB",
+    "countryName": "Lebanon",
+    "countryCode": "961",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d71"
+    },
+    "id": "122",
+    "countrySortName": "LS",
+    "countryName": "Lesotho",
+    "countryCode": "266",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d72"
+    },
+    "id": "123",
+    "countrySortName": "LR",
+    "countryName": "Liberia",
+    "countryCode": "231",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d73"
+    },
+    "id": "124",
+    "countrySortName": "LY",
+    "countryName": "Libya",
+    "countryCode": "218",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d74"
+    },
+    "id": "125",
+    "countrySortName": "LI",
+    "countryName": "Liechtenstein",
+    "countryCode": "423",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d75"
+    },
+    "id": "126",
+    "countrySortName": "LT",
+    "countryName": "Lithuania",
+    "countryCode": "370",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d76"
+    },
+    "id": "127",
+    "countrySortName": "LU",
+    "countryName": "Luxembourg",
+    "countryCode": "352",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d77"
+    },
+    "id": "128",
+    "countrySortName": "MO",
+    "countryName": "Macau S.A.R.",
+    "countryCode": "853",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d78"
+    },
+    "id": "129",
+    "countrySortName": "MK",
+    "countryName": "Macedonia",
+    "countryCode": "389",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d79"
+    },
+    "id": "130",
+    "countrySortName": "MG",
+    "countryName": "Madagascar",
+    "countryCode": "261",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d7a"
+    },
+    "id": "131",
+    "countrySortName": "MW",
+    "countryName": "Malawi",
+    "countryCode": "265",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d7b"
+    },
+    "id": "132",
+    "countrySortName": "MY",
+    "countryName": "Malaysia",
+    "countryCode": "60",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d7c"
+    },
+    "id": "133",
+    "countrySortName": "MV",
+    "countryName": "Maldives",
+    "countryCode": "960",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d7d"
+    },
+    "id": "134",
+    "countrySortName": "ML",
+    "countryName": "Mali",
+    "countryCode": "223",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d7e"
+    },
+    "id": "135",
+    "countrySortName": "MT",
+    "countryName": "Malta",
+    "countryCode": "356",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d7f"
+    },
+    "id": "136",
+    "countrySortName": "XM",
+    "countryName": "Man (Isle of)",
+    "countryCode": "44",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d80"
+    },
+    "id": "137",
+    "countrySortName": "MH",
+    "countryName": "Marshall Islands",
+    "countryCode": "692",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d81"
+    },
+    "id": "138",
+    "countrySortName": "MQ",
+    "countryName": "Martinique",
+    "countryCode": "596",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d82"
+    },
+    "id": "139",
+    "countrySortName": "MR",
+    "countryName": "Mauritania",
+    "countryCode": "222",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d83"
+    },
+    "id": "140",
+    "countrySortName": "MU",
+    "countryName": "Mauritius",
+    "countryCode": "230",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d84"
+    },
+    "id": "141",
+    "countrySortName": "YT",
+    "countryName": "Mayotte",
+    "countryCode": "269",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d85"
+    },
+    "id": "142",
+    "countrySortName": "MX",
+    "countryName": "Mexico",
+    "countryCode": "52",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d86"
+    },
+    "id": "143",
+    "countrySortName": "FM",
+    "countryName": "Micronesia",
+    "countryCode": "691",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d87"
+    },
+    "id": "144",
+    "countrySortName": "MD",
+    "countryName": "Moldova",
+    "countryCode": "373",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d88"
+    },
+    "id": "145",
+    "countrySortName": "MC",
+    "countryName": "Monaco",
+    "countryCode": "377",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d89"
+    },
+    "id": "146",
+    "countrySortName": "MN",
+    "countryName": "Mongolia",
+    "countryCode": "976",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d8a"
+    },
+    "id": "147",
+    "countrySortName": "MS",
+    "countryName": "Montserrat",
+    "countryCode": "1664",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d8b"
+    },
+    "id": "148",
+    "countrySortName": "MA",
+    "countryName": "Morocco",
+    "countryCode": "212",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d8c"
+    },
+    "id": "149",
+    "countrySortName": "MZ",
+    "countryName": "Mozambique",
+    "countryCode": "258",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d8d"
+    },
+    "id": "150",
+    "countrySortName": "MM",
+    "countryName": "Myanmar",
+    "countryCode": "95",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d8e"
+    },
+    "id": "151",
+    "countrySortName": "NA",
+    "countryName": "Namibia",
+    "countryCode": "264",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d8f"
+    },
+    "id": "152",
+    "countrySortName": "NR",
+    "countryName": "Nauru",
+    "countryCode": "674",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d90"
+    },
+    "id": "153",
+    "countrySortName": "NP",
+    "countryName": "Nepal",
+    "countryCode": "977",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d91"
+    },
+    "id": "154",
+    "countrySortName": "AN",
+    "countryName": "Netherlands Antilles",
+    "countryCode": "599",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d92"
+    },
+    "id": "155",
+    "countrySortName": "NL",
+    "countryName": "Netherlands The",
+    "countryCode": "31",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d93"
+    },
+    "id": "156",
+    "countrySortName": "NC",
+    "countryName": "New Caledonia",
+    "countryCode": "687",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d94"
+    },
+    "id": "157",
+    "countrySortName": "NZ",
+    "countryName": "New Zealand",
+    "countryCode": "64",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d95"
+    },
+    "id": "158",
+    "countrySortName": "NI",
+    "countryName": "Nicaragua",
+    "countryCode": "505",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d96"
+    },
+    "id": "159",
+    "countrySortName": "NE",
+    "countryName": "Niger",
+    "countryCode": "227",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d97"
+    },
+    "id": "160",
+    "countrySortName": "NG",
+    "countryName": "Nigeria",
+    "countryCode": "234",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d98"
+    },
+    "id": "161",
+    "countrySortName": "NU",
+    "countryName": "Niue",
+    "countryCode": "683",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d99"
+    },
+    "id": "162",
+    "countrySortName": "NF",
+    "countryName": "Norfolk Island",
+    "countryCode": "672",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d9a"
+    },
+    "id": "163",
+    "countrySortName": "MP",
+    "countryName": "Northern Mariana Islands",
+    "countryCode": "1670",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d9b"
+    },
+    "id": "164",
+    "countrySortName": "NO",
+    "countryName": "Norway",
+    "countryCode": "47",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d9c"
+    },
+    "id": "165",
+    "countrySortName": "OM",
+    "countryName": "Oman",
+    "countryCode": "968",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d9d"
+    },
+    "id": "166",
+    "countrySortName": "PK",
+    "countryName": "Pakistan",
+    "countryCode": "92",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d9e"
+    },
+    "id": "167",
+    "countrySortName": "PW",
+    "countryName": "Palau",
+    "countryCode": "680",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02d9f"
+    },
+    "id": "168",
+    "countrySortName": "PS",
+    "countryName": "Palestinian Territory Occupied",
+    "countryCode": "970",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da0"
+    },
+    "id": "169",
+    "countrySortName": "PA",
+    "countryName": "Panama",
+    "countryCode": "507",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da1"
+    },
+    "id": "170",
+    "countrySortName": "PG",
+    "countryName": "Papua new Guinea",
+    "countryCode": "675",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da2"
+    },
+    "id": "171",
+    "countrySortName": "PY",
+    "countryName": "Paraguay",
+    "countryCode": "595",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da3"
+    },
+    "id": "172",
+    "countrySortName": "PE",
+    "countryName": "Peru",
+    "countryCode": "51",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da4"
+    },
+    "id": "173",
+    "countrySortName": "PH",
+    "countryName": "Philippines",
+    "countryCode": "63",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da5"
+    },
+    "id": "174",
+    "countrySortName": "PN",
+    "countryName": "Pitcairn Island",
+    "countryCode": "0",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da6"
+    },
+    "id": "175",
+    "countrySortName": "PL",
+    "countryName": "Poland",
+    "countryCode": "48",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da7"
+    },
+    "id": "176",
+    "countrySortName": "PT",
+    "countryName": "Portugal",
+    "countryCode": "351",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da8"
+    },
+    "id": "177",
+    "countrySortName": "PR",
+    "countryName": "Puerto Rico",
+    "countryCode": "1787",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02da9"
+    },
+    "id": "178",
+    "countrySortName": "QA",
+    "countryName": "Qatar",
+    "countryCode": "974",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02daa"
+    },
+    "id": "179",
+    "countrySortName": "RE",
+    "countryName": "Reunion",
+    "countryCode": "262",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dab"
+    },
+    "id": "180",
+    "countrySortName": "RO",
+    "countryName": "Romania",
+    "countryCode": "40",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dac"
+    },
+    "id": "181",
+    "countrySortName": "RU",
+    "countryName": "Russia",
+    "countryCode": "70",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dad"
+    },
+    "id": "182",
+    "countrySortName": "RW",
+    "countryName": "Rwanda",
+    "countryCode": "250",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dae"
+    },
+    "id": "183",
+    "countrySortName": "SH",
+    "countryName": "Saint Helena",
+    "countryCode": "290",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02daf"
+    },
+    "id": "184",
+    "countrySortName": "KN",
+    "countryName": "Saint Kitts And Nevis",
+    "countryCode": "1869",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db0"
+    },
+    "id": "185",
+    "countrySortName": "LC",
+    "countryName": "Saint Lucia",
+    "countryCode": "1758",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db1"
+    },
+    "id": "186",
+    "countrySortName": "PM",
+    "countryName": "Saint Pierre and Miquelon",
+    "countryCode": "508",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db2"
+    },
+    "id": "187",
+    "countrySortName": "VC",
+    "countryName": "Saint Vincent And The Grenadines",
+    "countryCode": "1784",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db3"
+    },
+    "id": "188",
+    "countrySortName": "WS",
+    "countryName": "Samoa",
+    "countryCode": "684",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db4"
+    },
+    "id": "189",
+    "countrySortName": "SM",
+    "countryName": "San Marino",
+    "countryCode": "378",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db5"
+    },
+    "id": "190",
+    "countrySortName": "ST",
+    "countryName": "Sao Tome and Principe",
+    "countryCode": "239",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db6"
+    },
+    "id": "191",
+    "countrySortName": "SA",
+    "countryName": "Saudi Arabia",
+    "countryCode": "966",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db7"
+    },
+    "id": "192",
+    "countrySortName": "SN",
+    "countryName": "Senegal",
+    "countryCode": "221",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db8"
+    },
+    "id": "193",
+    "countrySortName": "RS",
+    "countryName": "Serbia",
+    "countryCode": "381",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02db9"
+    },
+    "id": "194",
+    "countrySortName": "SC",
+    "countryName": "Seychelles",
+    "countryCode": "248",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dba"
+    },
+    "id": "195",
+    "countrySortName": "SL",
+    "countryName": "Sierra Leone",
+    "countryCode": "232",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dbb"
+    },
+    "id": "196",
+    "countrySortName": "SG",
+    "countryName": "Singapore",
+    "countryCode": "65",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dbc"
+    },
+    "id": "197",
+    "countrySortName": "SK",
+    "countryName": "Slovakia",
+    "countryCode": "421",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dbd"
+    },
+    "id": "198",
+    "countrySortName": "SI",
+    "countryName": "Slovenia",
+    "countryCode": "386",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dbe"
+    },
+    "id": "199",
+    "countrySortName": "XG",
+    "countryName": "Smaller Territories of the UK",
+    "countryCode": "44",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dbf"
+    },
+    "id": "200",
+    "countrySortName": "SB",
+    "countryName": "Solomon Islands",
+    "countryCode": "677",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc0"
+    },
+    "id": "201",
+    "countrySortName": "SO",
+    "countryName": "Somalia",
+    "countryCode": "252",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc1"
+    },
+    "id": "202",
+    "countrySortName": "ZA",
+    "countryName": "South Africa",
+    "countryCode": "27",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc2"
+    },
+    "id": "203",
+    "countrySortName": "GS",
+    "countryName": "South Georgia",
+    "countryCode": "0",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc3"
+    },
+    "id": "204",
+    "countrySortName": "SS",
+    "countryName": "South Sudan",
+    "countryCode": "211",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc4"
+    },
+    "id": "205",
+    "countrySortName": "ES",
+    "countryName": "Spain",
+    "countryCode": "34",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc5"
+    },
+    "id": "206",
+    "countrySortName": "LK",
+    "countryName": "Sri Lanka",
+    "countryCode": "94",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc6"
+    },
+    "id": "207",
+    "countrySortName": "SD",
+    "countryName": "Sudan",
+    "countryCode": "249",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc7"
+    },
+    "id": "208",
+    "countrySortName": "SR",
+    "countryName": "SuriCountry_Name",
+    "countryCode": "597",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc8"
+    },
+    "id": "209",
+    "countrySortName": "SJ",
+    "countryName": "Svalbard And Jan Mayen Islands",
+    "countryCode": "47",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dc9"
+    },
+    "id": "210",
+    "countrySortName": "SZ",
+    "countryName": "Swaziland",
+    "countryCode": "268",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dca"
+    },
+    "id": "211",
+    "countrySortName": "SE",
+    "countryName": "Sweden",
+    "countryCode": "46",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dcb"
+    },
+    "id": "212",
+    "countrySortName": "CH",
+    "countryName": "Switzerland",
+    "countryCode": "41",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dcc"
+    },
+    "id": "213",
+    "countrySortName": "SY",
+    "countryName": "Syria",
+    "countryCode": "963",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dcd"
+    },
+    "id": "214",
+    "countrySortName": "TW",
+    "countryName": "Taiwan",
+    "countryCode": "886",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dce"
+    },
+    "id": "215",
+    "countrySortName": "TJ",
+    "countryName": "Tajikistan",
+    "countryCode": "992",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dcf"
+    },
+    "id": "216",
+    "countrySortName": "TZ",
+    "countryName": "Tanzania",
+    "countryCode": "255",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd0"
+    },
+    "id": "217",
+    "countrySortName": "TH",
+    "countryName": "Thailand",
+    "countryCode": "66",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd1"
+    },
+    "id": "218",
+    "countrySortName": "TG",
+    "countryName": "Togo",
+    "countryCode": "228",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd2"
+    },
+    "id": "219",
+    "countrySortName": "TK",
+    "countryName": "Tokelau",
+    "countryCode": "690",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd3"
+    },
+    "id": "220",
+    "countrySortName": "TO",
+    "countryName": "Tonga",
+    "countryCode": "676",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd4"
+    },
+    "id": "221",
+    "countrySortName": "TT",
+    "countryName": "Trinidad And Tobago",
+    "countryCode": "1868",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd5"
+    },
+    "id": "222",
+    "countrySortName": "TN",
+    "countryName": "Tunisia",
+    "countryCode": "216",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd6"
+    },
+    "id": "223",
+    "countrySortName": "TR",
+    "countryName": "Turkey",
+    "countryCode": "90",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd7"
+    },
+    "id": "224",
+    "countrySortName": "TM",
+    "countryName": "Turkmenistan",
+    "countryCode": "7370",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd8"
+    },
+    "id": "225",
+    "countrySortName": "TC",
+    "countryName": "Turks And Caicos Islands",
+    "countryCode": "1649",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dd9"
+    },
+    "id": "226",
+    "countrySortName": "TV",
+    "countryName": "Tuvalu",
+    "countryCode": "688",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dda"
+    },
+    "id": "227",
+    "countrySortName": "UG",
+    "countryName": "Uganda",
+    "countryCode": "256",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02ddb"
+    },
+    "id": "228",
+    "countrySortName": "UA",
+    "countryName": "Ukraine",
+    "countryCode": "380",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02ddc"
+    },
+    "id": "229",
+    "countrySortName": "AE",
+    "countryName": "United Arab Emirates",
+    "countryCode": "971",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02ddd"
+    },
+    "id": "230",
+    "countrySortName": "GB",
+    "countryName": "United Kingdom",
+    "countryCode": "44",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dde"
+    },
+    "id": "231",
+    "countrySortName": "US",
+    "countryName": "United States",
+    "countryCode": "1",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02ddf"
+    },
+    "id": "232",
+    "countrySortName": "UM",
+    "countryName": "United States Minor Outlying Islands",
+    "countryCode": "1",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de0"
+    },
+    "id": "233",
+    "countrySortName": "UY",
+    "countryName": "Uruguay",
+    "countryCode": "598",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de1"
+    },
+    "id": "234",
+    "countrySortName": "UZ",
+    "countryName": "Uzbekistan",
+    "countryCode": "998",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de2"
+    },
+    "id": "235",
+    "countrySortName": "VU",
+    "countryName": "Vanuatu",
+    "countryCode": "678",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de3"
+    },
+    "id": "236",
+    "countrySortName": "VA",
+    "countryName": "Vatican City State (Holy See)",
+    "countryCode": "39",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de4"
+    },
+    "id": "237",
+    "countrySortName": "VE",
+    "countryName": "Venezuela",
+    "countryCode": "58",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de5"
+    },
+    "id": "238",
+    "countrySortName": "VN",
+    "countryName": "Vietnam",
+    "countryCode": "84",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de6"
+    },
+    "id": "239",
+    "countrySortName": "VG",
+    "countryName": "Virgin Islands (British)",
+    "countryCode": "1284",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de7"
+    },
+    "id": "240",
+    "countrySortName": "VI",
+    "countryName": "Virgin Islands (US)",
+    "countryCode": "1340",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de8"
+    },
+    "id": "241",
+    "countrySortName": "WF",
+    "countryName": "Wallis And Futuna Islands",
+    "countryCode": "681",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02de9"
+    },
+    "id": "242",
+    "countrySortName": "EH",
+    "countryName": "Western Sahara",
+    "countryCode": "212",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dea"
+    },
+    "id": "243",
+    "countrySortName": "YE",
+    "countryName": "Yemen",
+    "countryCode": "967",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02deb"
+    },
+    "id": "244",
+    "countrySortName": "YU",
+    "countryName": "Yugoslavia",
+    "countryCode": "38",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02dec"
+    },
+    "id": "245",
+    "countrySortName": "ZM",
+    "countryName": "Zambia",
+    "countryCode": "260",
+    "pattern": "/^(+)?0?d+$/"
+  },
+  {
+    "_id": {
+      "$oid": "65c4cd054711a10103a02ded"
+    },
+    "id": "246",
+    "countrySortName": "ZW",
+    "countryName": "Zimbabwe",
+    "countryCode": "263",
+    "pattern": "/^(+)?0?d+$/"
+  }
+]
