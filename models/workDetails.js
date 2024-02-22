@@ -19,7 +19,7 @@ const workDetailsScheama = new Schema(
             designation: {
                 type: String,
                 required: true
-            },
+            },m
         },
         location: {
             city: {
