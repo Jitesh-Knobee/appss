@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "1234567890",
+    "companyDetails": {
+      "jobType": "Full-time",
+      "companyName": "ABC Corporation",
+      "designation": "Software Engineer"
+    },
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "121212",
+    "companyDetails": {
+      "jobType": "Full-time",
+      "companyName": "ABC Corporation",
+      "designation": "Software Engineer"
+    },
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "1212d12",
+    "companyDetails": {
+      "jobType": "Part-time",
+      "companyName": "ABC Corporation",
+      "designation": "Software Engineer"
+    },
+    "location": {
+      "city": "New York",
+      "state": "New York",
+      "country": "USA"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "1212dfdfd12",
+    "companyDetails": {
+      "jobType": "Part-time",
+      "companyName": "ABC Corporation",
+      "designation": "Software Engineer"
+    },
+    "location": {
+      "city": "Newdfdf York",
+      "state": "New York",
+      "country": "USA"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "1212dfhghhdfd12",
+    "companyDetails": {
+      "jobType": "Part-time",
+      "companyName": "ABC Corporation",
+      "designation": "Software Engineer"
+    },
+    "location": {
+      "city": "Newdfdf York",
+      "state": "New York",
+      "country": "USA"
+    },
+    "__v": 0
+  }
+]

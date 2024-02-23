@@ -1,0 +1,71 @@
+[
+  {
+    "_id": {
+      "$oid": "65d84d3ba597ecfb5346658e"
+    },
+    "user_ID": {
+      "$oid": "65cdb2889ca5208bdd7ac1ea"
+    },
+    "companyDetails": {
+      "jobType": "Full-time",
+      "companyName": "Knobee",
+      "designation": "Backend Engineer"
+    },
+    "location": {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "workDuration": {
+      "startDate": "2022-01-01",
+      "endDate": "2022-12-31"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d84dcaa597ecfb53466597"
+    },
+    "user_ID": {
+      "$oid": "65cdb2889ca5208bdd7ac1ea"
+    },
+    "companyDetails": {
+      "jobType": "Full-time",
+      "companyName": "harshly group of education and skills technologies",
+      "designation": "Backend Engineer"
+    },
+    "location": {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "workDuration": {
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65d8510631d6c60791b2c69b"
+    },
+    "user_ID": {
+      "$oid": "65cdb2889ca5208bdd7ac1ea"
+    },
+    "companyDetails": {
+      "jobType": "Full-time",
+      "companyName": "Infosys",
+      "designation": "Backend Engineer"
+    },
+    "location": {
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "country": "India"
+    },
+    "workDuration": {
+      "startDate": "2021-01-01",
+      "endDate": "2023-12-30"
+    },
+    "__v": 0
+  }
+]

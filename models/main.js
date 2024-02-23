@@ -1,4 +1,6 @@
 const mongoose = require('mongoose');
+
+// User Scheama =>
 const dataSchema = new mongoose.Schema(
     {
         Firstname: {
@@ -103,7 +105,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
-        
+
         family_hive_id: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -124,12 +126,12 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
-        
+
         long_home: {
             type: String,
             maxlength: 255 // Example maximum length
         },
-        
+
         marital_status: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -172,7 +174,6 @@ const dataSchema = new mongoose.Schema(
         },
     });
 
-// Create a Mongoose model based on the schema
-const DataModel = mongoose.model('Users', dataSchema, 'Users');
+//   User model =>
+module.exports = mongoose.model('Users', dataSchema, 'Users');
 
-module.exports = DataModel;

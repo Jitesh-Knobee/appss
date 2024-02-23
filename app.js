@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/img/flag', express.static(path.join(__dirname, 'img', 'Flag')));
 app.use('/img/userPost', express.static(path.join(__dirname, 'img', 'UserPost')));
 
- 
+
 // Define MongoDB connection URI 
 const mongoURI = process.env.mongoURI;
 
@@ -25,16 +25,16 @@ mongoose.connect(mongoURI)
 
 
 
-// Use routes
+// Use routes => 
 app.use('/collageInfo', require('./routes/collageRoutes.js'))
 app.use('/countryInfo', require('./routes/countryRoutes.js'));
 app.use('/user', require('./routes/userRoutes'));
 app.use('/post', require('./routes/postRoutes'));
-app.use("/work")
 
 // post routes =>
-app.use("/", require("./routes/educationDetailRoutes.js"))
- 
+app.use(require("./routes/educationDetailRoutes.js"))
+app.use(require("./routes/workDetailRoutes.js"))
+
 const server = http.listen("8080", () => {
     try {
         const host = server.address().address;

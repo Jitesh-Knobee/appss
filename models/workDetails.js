@@ -3,8 +3,8 @@ const { Schema, model } = require("mongoose")
 // Scheama =>
 const workDetailsScheama = new Schema(
     {
-        user_id: {
-            type: String,
+        user_ID: {
+            type: {},
             required: true
         },
         companyDetails: {
@@ -14,12 +14,13 @@ const workDetailsScheama = new Schema(
             },
             companyName: {
                 type: String,
-                required: true
+                required: true,
+                unique: true
             },
             designation: {
                 type: String,
                 required: true
-            },m
+            },
         },
         location: {
             city: {
@@ -34,9 +35,25 @@ const workDetailsScheama = new Schema(
                 type: String,
                 required: true
             },
+        },
+        workDuration: {
+            startDate: {
+                type: String,
+                required: true,
+                unique: true
+            },
+            endDate: {
+                type: String,
+                required: true,
+                unique: true
+            },
         }
     }
 )
 
+// If do not want to add same duration for work =>
+// workDetailsScheama.index({ 'workDuration.startDate': 1, 'workDuration.endDate': 1 }, { unique: true, sparse: true });
+
+
 // model => 
-module.exports = model("workDetail", workDetailsScheama)
+module.exports = model("UserWorkDetail", workDetailsScheama, "userWorkDetails");

@@ -5,7 +5,7 @@ const { Schema, model } = mongoose;
 const educationDetailScheama = new Schema(
     {
         user_id: {
-            type: String,
+            type: {},
             required: true
         },
         courseName: {
@@ -45,4 +45,4 @@ const educationDetailScheama = new Schema(
 
 // models for education details =>
 
-module.exports = model("EducationDetail", educationDetailScheama);
+module.exports = model("userEducationDetail", educationDetailScheama, "userEducationDetails");
