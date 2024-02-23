@@ -3,7 +3,6 @@ const UserCollection = require("../models/main.js")
 
 
 // Create Users Education Details =>
-
 exports.educationDetailControllers = async (req, res) => {
     try {
         ({ _id: req.body.user_id } = await UserCollection.findOne())
@@ -27,7 +26,6 @@ exports.educationDetailControllers = async (req, res) => {
 }
 
 // Update Users Education Details => 
-
 exports.updateEducationDetailControllers = async (req, res) => {
     try {
         let { _id, courseName, schoolOrCollageName, location: { city, state, country }, courseDuration: { startDate, endDate } } = await req.body;
@@ -61,7 +59,6 @@ exports.updateEducationDetailControllers = async (req, res) => {
 
 
 // Delete Users Education Details => 
-
 exports.deleteEducationDetailControllers = async (req, res) => {
     try {
         let { _id } = req.body;
