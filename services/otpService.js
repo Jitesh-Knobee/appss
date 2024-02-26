@@ -13,7 +13,7 @@ const sendOtp = async (mobile, message) => {
         console.log("API Response:", response.data);
         return response.data;
     } catch (error) {
-        console.error("Error sending OTP:", error);
+        console.error("Error sending OTP:", error); 
         throw new Error('Error sending OTP');
     }
 };

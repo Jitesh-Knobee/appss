@@ -34,6 +34,7 @@ router.post('/checkUserOtp', async (req, res) => {
             return;
         }
         const user = await DataModel.findOne({ Mobile: mobile, CountryID: countrycode });
+        
         if (user) {
             res.status(200).json({ code: 200, exists: 1 });
         } else {
