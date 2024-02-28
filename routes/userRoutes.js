@@ -8,11 +8,10 @@ const { sendOtp, sendInternationalOtp } = require('../services/otpService');
 const path = require('path');
 const multer = require('multer');
 const crypto = require('crypto');
-const USER_BASE_URL =  process.env.USER_BASE_URL;
+const USER_BASE_URL = process.env.USER_BASE_URL;
 const secretKey = process.env.SECRET_KEY;
 
-
-
+ 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, path.join(__dirname, '..', 'img', 'UserProfile')); // Use the 'img/UserProfile' directory for saving files
@@ -22,6 +21,7 @@ const storage = multer.diskStorage({
         cb(null, file.fieldname + '-Knobee-' + Math.floor(1000000 + Math.random() * 9000000) + path.extname(file.originalname));
     }
 });
+
 
 const upload = multer({ storage: storage });
 
@@ -34,18 +34,18 @@ router.post('/checkUserOtp', async (req, res) => {
             return;
         }
         const user = await DataModel.findOne({ Mobile: mobile, CountryID: countrycode });
-        
+
         if (user) {
             res.status(200).json({ code: 200, exists: 1 });
         } else {
             const rndno = Math.floor(1000 + Math.random() * 9000);
             let otpResponse;
             const message = `Dear KNOBEE user, ${rndno} is the One Time Password to login to your application. Please Enter the OTP to verify your mobile number. Team KNOBEE.`;
-           /* if (countrycode == 91) {
-                otpResponse = await sendOtp(mobile, message);
-            } else {
-                otpResponse = await sendInternationalOtp(countrycode, mobile, message);
-            }*/
+            /* if (countrycode == 91) {
+                 otpResponse = await sendOtp(mobile, message);
+             } else {
+                 otpResponse = await sendInternationalOtp(countrycode, mobile, message);
+             }*/
             res.status(200).json({ code: 200, otp: rndno, exists: 0 });
         }
     } catch (error) {
@@ -71,7 +71,7 @@ router.post('/checkKnobeeId', async (req, res) => {
 });
 router.post('/saveUser', upload.single('photo'), async (req, res) => {
     try {
-        const { countrycode, mobile, fullname, gender, dob, refercode, email, knbid, password, isCommunity, Community_name} = req.body;
+        const { countrycode, mobile, fullname, gender, dob, refercode, email, knbid, password, isCommunity, Community_name } = req.body;
         const [firstname, middlename, lastname] = fullname.split(' ');
         const randomInt = crypto.randomInt(1000, 100000);
         // Hash the user's password
@@ -103,7 +103,7 @@ router.post('/saveUser', upload.single('photo'), async (req, res) => {
             createdAt: Date.now(),
             ReferStatus: '',
             UserStaus: 'Self',
-            userAddress: '',
+            userAddress: '', 
             about: '',
             age: '',
             city_id: '',
@@ -129,8 +129,8 @@ router.post('/saveUser', upload.single('photo'), async (req, res) => {
         });
 
         // Save the new user document
-        const savedUser = await newUser.save(); 
-        const responseData = savedUser.toObject(); 
+        const savedUser = await newUser.save();
+        const responseData = savedUser.toObject();
         delete responseData.Password;
         delete responseData.FirebaseToken;
         res.status(200).json({ code: 200, message: 'User created successfully', data: responseData, token: randomInt });
@@ -167,7 +167,7 @@ router.post('/signin', async (req, res) => {
             ...user.toObject(),
         };
         delete responseData.Password; // Ensure password is not sent back
-        delete responseData.FirebaseToken; 
+        delete responseData.FirebaseToken;
         res.status(200).json({
             code: 200,
             message: 'Sign in successful',

@@ -2,9 +2,10 @@ const Collage = require("../models/college.js");
 
 // Education =>
 
-exports.educationControllers = async (req, res) => {
+exports.educationControllers = async (req, res) => { 
     try {
         let collageName = req.params.collageName?.trim();
+
         if (collageName) {
             let collegeNameSuggesting = await Collage.find({ name: { $regex: new RegExp(`^${collageName}`, 'i') } });
             if (collegeNameSuggesting.length > 0) {
@@ -37,4 +38,5 @@ exports.educationControllers = async (req, res) => {
     } catch (error) {
         console.log("internal server error", error);
     }
+    
 }

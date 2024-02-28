@@ -7,7 +7,7 @@ const Country = require("../models/country.js");
 const State = require("../models/state.js");
 
 // Country Routers =>
-
+ 
 exports.countryControllers = async (req, res) => {
     try {
         const countries = await Country.find({}, { _id: 0 });
@@ -22,6 +22,7 @@ exports.countryControllers = async (req, res) => {
         res.status(500).json({ code: 500 });
     }
 }
+
 // Cities Routers =>  
 exports.citiesControllers = async (req, res) => {
     try {

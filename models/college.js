@@ -6,7 +6,7 @@ const educationScheama = new Schema({
         require: true
     },
     type: {
-        type: Number,
+        type: Number, 
         require: true
     }
 })

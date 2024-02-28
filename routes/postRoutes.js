@@ -8,11 +8,10 @@ const path = require('path');
 const multer = require('multer');
 const DataModel = require('../models/main');
 const PostFiles = require('../models/postfiles');
-const USER_BASE_URL =  process.env.USER_BASE_URL;
+const USER_BASE_URL = process.env.USER_BASE_URL;
 const secretKey = process.env.SECRET_KEY;
 
-
-
+ 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, path.join(__dirname, '..', 'img', 'UserPost'));
@@ -25,13 +24,13 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage: storage });
 
- 
-   
+
+
 router.post('/savePost', upload.array('filesdata', 30), async (req, res) => {
     try {
         const { userID, post_type, post_content, is_hive_visibility, is_mate_visibility, is_public_visibility, token } = req.body;
         const user = await DataModel.findOne({ FirebaseToken: token });
-        
+
         if (!user) {
             return res.status(401).json({ code: 401, message: 'Unauthorized: Invalid token' });
         }
@@ -42,7 +41,7 @@ router.post('/savePost', upload.array('filesdata', 30), async (req, res) => {
         switch (post_type) {
             case '1':
                 savePost = new PostModel({
-                    user_id: userID,
+                    user_id: userID, 
                     post_type: post_type,
                     post_content: post_content,
                     is_hive_visibility: is_hive_visibility,
@@ -89,7 +88,6 @@ router.post('/savePost', upload.array('filesdata', 30), async (req, res) => {
     }
 });
 
-
-
+ 
 
 module.exports = router;

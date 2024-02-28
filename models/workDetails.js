@@ -13,7 +13,7 @@ const workDetailsScheama = new Schema(
                 required: true
             },
             companyName: {
-                type: String,
+                type: String, 
                 required: true,
                 unique: true
             },

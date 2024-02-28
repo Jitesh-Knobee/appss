@@ -1,8 +1,9 @@
-const Education = require("../models/educationDetails.js")
-const UserCollection = require("../models/main.js")
+const Education = require("../models/educationDetails.js");
+const UserCollection = require("../models/main.js");
 
 
 // Create Users Education Details =>
+ 
 exports.educationDetailControllers = async (req, res) => {
     try {
         ({ _id: req.body.user_id } = await UserCollection.findOne())
@@ -11,7 +12,7 @@ exports.educationDetailControllers = async (req, res) => {
             {
                 status: 200,
                 massage: "Education details submitted successfully",
-                response: response
+                response: response 
             }
         )
     } catch (error) {
@@ -26,6 +27,7 @@ exports.educationDetailControllers = async (req, res) => {
 }
 
 // Update Users Education Details => 
+
 exports.updateEducationDetailControllers = async (req, res) => {
     try {
         let { _id, courseName, schoolOrCollageName, location: { city, state, country }, courseDuration: { startDate, endDate } } = await req.body;
@@ -78,3 +80,5 @@ exports.deleteEducationDetailControllers = async (req, res) => {
         })
     }
 }
+
+

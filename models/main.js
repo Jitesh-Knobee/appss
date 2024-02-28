@@ -13,38 +13,56 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 100 // Example maximum length
         },
+
+
         OTP: {
             type: Number,
             maxlength: 4 // Example maximum length
         },
+
+
         Gender: {
             type: String,
             maxlength: 15 // Example maximum length
         },
+
+
         Dob: {
             type: String,
             maxlength: 15 // Example maximum length
         },
+
+
         CountryID: {
             type: String,
             maxlength: 100 // Example maximum length
         },
+
         Mobile: {
             type: String,
             maxlength: 100 // Example maximum length
         },
+
+
         is_varifyMobile: {
             type: Number,
             maxlength: 1 // Example maximum length
         },
+
+
         Email: {
             type: String,
             maxlength: 100 // Example maximum length
         },
+
+
         is_varifyEmail: {
             type: Number,
             maxlength: 1 // Example maximum length
         },
+
+
+
         KnobeeID: {
             type: String,
             maxlength: 100 // Example maximum length
@@ -57,10 +75,13 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
+
+
         Photo: {
             type: String,
             maxlength: 255 // Example maximum length
         },
+
         createdAt: {
             type: Date,
             default: Date.now
@@ -85,6 +106,11 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
+        cover_img: {
+            type: String,
+            maxlength: 255 // Example maximum length
+        },
+
         age: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -97,10 +123,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
-        cover_img: {
-            type: String,
-            maxlength: 255 // Example maximum length
-        },
+      
         death_aniversary: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -110,6 +133,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
+        
         ipaddress: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -122,6 +146,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
+
         lat_home: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -148,6 +173,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
+
         is_community: {
             type: String,
             maxlength: 2 // Example maximum length
@@ -156,10 +182,15 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
+
         FirebaseToken: {
             type: String,
             maxlength: 500 // Example maximum length
         },
+
+
+
+
         Visible_to_public: {
             type: String,
             default: 1
