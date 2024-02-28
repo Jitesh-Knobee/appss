@@ -19,7 +19,7 @@ exports.advanceSearchControllers = async (req, res) => {
                 }
             );
 
-            await response.map(({ _id, ...remainedData }) => {
+            response.map(({ _id, ...remainedData }) => {
                 let id = _id.toString();
                 let educationResponse = EducationCollections.findOne({ user_id: id, courseName, schoolOrCollageName })
                 if (educationResponse) {
@@ -65,7 +65,13 @@ exports.advanceSearchControllers = async (req, res) => {
         }
 
     } catch (error) {
-        console.log(error, "  <<==== error is")
+        res.json(
+            {
+                status: 500,
+                massage: "Internal server error",
+                error: error
+            }
+        )
     }
 }
 

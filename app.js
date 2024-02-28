@@ -28,6 +28,8 @@ main();
 
 // Use routes => 
 
+app.use(require("./routes/notificationRoutes.js"));
+
 app.use(require("./routes/advanceSearchRoutes.js"));
 
 app.use(require("./routes/workDetailRoutes.js"));
