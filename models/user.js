@@ -180,7 +180,7 @@ const userScheama = new Schema(
             }
         },
 
-        // Knobee ID and Password for User
+        // Knobee ID and Password for User  =>
 
         ourKnobee: {
 
@@ -208,11 +208,9 @@ const userScheama = new Schema(
 
         },
 
-
-
         createdAt: {
             type: Date,
-            default: Date.now
+            default: Date.now 
         },
 
         updateAt: {

@@ -19,4 +19,4 @@ let StateScheama = new Schema({
     },
 })
 
-module.exports = model("state", StateScheama);
+module.exports = model("stateList", StateScheama, "stateLists");

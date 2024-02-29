@@ -14,7 +14,6 @@ const dataSchema = new mongoose.Schema(
             maxlength: 100 // Example maximum length
         },
 
-
         OTP: {
             type: Number,
             maxlength: 4 // Example maximum length
@@ -123,7 +122,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
-      
+
         death_aniversary: {
             type: String,
             maxlength: 255 // Example maximum length
@@ -133,7 +132,7 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Example maximum length
         },
-        
+
         ipaddress: {
             type: String,
             maxlength: 255 // Example maximum length

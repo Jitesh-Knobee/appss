@@ -45,4 +45,4 @@ const educationDetailScheama = new Schema(
 
 // models for education details =>
 
-module.exports = model("userEducationDetail", educationDetailScheama, "userEducationDetails");
+module.exports = model("educationDetail", educationDetailScheama, "educationDetails");

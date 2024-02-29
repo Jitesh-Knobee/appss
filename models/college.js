@@ -6,9 +6,9 @@ const educationScheama = new Schema({
         require: true
     },
     type: {
-        type: Number, 
+        type: Number,
         require: true
     }
 })
 
-module.exports = model("education", educationScheama);
+module.exports = model("collageList", educationScheama, "collageList");

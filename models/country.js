@@ -29,5 +29,5 @@ let countryScheama = new Schema(
 )
 
 // models =>
-module.exports = model("countryList", countryScheama)
+module.exports = model("countryList", countryScheama, "countryLists")
 

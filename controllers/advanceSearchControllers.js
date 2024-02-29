@@ -1,7 +1,7 @@
 
 const UserCollections = require("../models/user.js");
 const EducationCollections = require("../models/educationDetails.js");
-const CompanyCollections = require("../models/workDetails.js");
+const CompanyCollections = require("../models/workDetails.js"); 
 
 
 // Post => Advance searches controllers for users =>

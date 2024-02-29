@@ -15,7 +15,7 @@ const advanceSearchSchema = new Schema(
 
         ageRange: {
             startAgeRange: Number,
-            endAgeRange: Number
+            endAgeRange: Number 
         },
 
         location: String,

@@ -27,7 +27,7 @@ exports.workDetailControllers = async (req, res) => {
             }
         )
     }
-    
+
 }
 
 

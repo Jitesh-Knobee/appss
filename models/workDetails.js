@@ -56,4 +56,4 @@ const workDetailsScheama = new Schema(
 
 
 // model => 
-module.exports = model("UserWorkDetail", workDetailsScheama, "userWorkDetails");
+module.exports = model("workDetail", workDetailsScheama, "workDetails");

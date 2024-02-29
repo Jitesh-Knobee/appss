@@ -32,11 +32,12 @@ const post_imagesSheama = new Schema(
             type: Number,
             default: null
         },
-    created: {
-        type: Date,
-        required: true
-    },
-      order: {
+        created: {
+            type: Date,
+            required: true
+        },
+
+        order: {
             type: Number,
             default: null
         },

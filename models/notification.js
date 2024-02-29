@@ -2,6 +2,7 @@ const { Schema, model } = require("mongoose")
 
 
 // Notification Scheam =>
+
 const notificationSchema = new Schema(
     {
         user_id: {
@@ -26,7 +27,7 @@ const notificationSchema = new Schema(
         description: String,
 
         reDirection: String,
-        
+
         is_read: {
             type: Boolean,
             required: true
