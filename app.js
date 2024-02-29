@@ -35,7 +35,11 @@ app.use(require("./routes/advanceSearchRoutes.js"));
 app.use(require("./routes/workDetailRoutes.js"));
 app.use(require("./routes/educationDetailRoutes.js"));
 
-app.use('/collageInfo', require('./routes/collageRoutes.js'));
+
+// collage list => 
+app.use(require('./routes/collageListsRoutes.js'));
+
+
 app.use('/countryInfo', require('./routes/countryRoutes.js'));
 
 
