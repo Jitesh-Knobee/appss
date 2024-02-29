@@ -2,9 +2,9 @@ const Collage = require("../models/college.js");
 
 // Education =>
 
-exports.educationControllers = async (req, res) => { 
+exports.educationControllers = async (req, res) => {
     try {
-        let collageName = req.params.collageName?.trim();
+        let { collageName } = req.params;
 
         if (collageName) {
             let collegeNameSuggesting = await Collage.find({ name: { $regex: new RegExp(`^${collageName}`, 'i') } });
@@ -28,8 +28,8 @@ exports.educationControllers = async (req, res) => {
             let allCollegeNames = await Collage.find();
             res.json(
                 {
-                    massage: "all the collages",
                     status: 200,
+                    massage: "all the collages",
                     CollegeNames: allCollegeNames,
                 }
             )
@@ -38,5 +38,5 @@ exports.educationControllers = async (req, res) => {
     } catch (error) {
         console.log("internal server error", error);
     }
-    
+
 }

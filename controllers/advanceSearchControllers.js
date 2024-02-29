@@ -1,7 +1,7 @@
 
-const UserCollections = require("../models/user.js")
-const EducationCollections = require("../models/educationDetails.js")
-const CompanyCollections = require("../models/workDetails.js")
+const UserCollections = require("../models/user.js");
+const EducationCollections = require("../models/educationDetails.js");
+const CompanyCollections = require("../models/workDetails.js");
 
 
 // Post => Advance searches controllers for users =>
@@ -23,26 +23,27 @@ exports.advanceSearchControllers = async (req, res) => {
                 let id = _id.toString();
                 let educationResponse = EducationCollections.findOne({ user_id: id, courseName, schoolOrCollageName })
                 if (educationResponse) {
+
                     let companyResponse = CompanyCollections.findOne({ user_id: id, companyDetails: { companyName } })
-                    if (companyResponse) {
+
+                    companyResponse ? res.json(
+                        {
+                            status: 200,
+                            massage: "User Found Successfully",
+                            userDetails: {
+                                userData: remainedData,
+                                userEducationDetails: educationResponse,
+                                userWorkDetails: companyResponse
+                            }
+                        }
+                    ) :
                         res.json(
                             {
                                 status: 200,
-                                massage: "User Found Successfully",
-                                userDetails: {
-                                    userData: remainedData,
-                                    userEducationDetails: educationResponse,
-                                    userWorkDetails: companyResponse
-                                }
+                                massage: "Work details not matched, User Not Found"
                             }
                         )
-                    }
-                    res.json(
-                        {
-                            status: 200,
-                            massage: "Work details not matched, User Not Found"
-                        }
-                    )
+
                 }
                 else {
                     res.json(

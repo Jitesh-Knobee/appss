@@ -4,6 +4,7 @@ const UserCollection = require("../models/main.js");
 // Post => workdetails routes 
 
 exports.workDetailControllers = async (req, res) => {
+
     try {
         // User collection ID =>
         ({ _id: req.body.user_ID } = await UserCollection.findOne())
@@ -15,7 +16,7 @@ exports.workDetailControllers = async (req, res) => {
                     massage: "Work Details submitted Successfully",
                     results: responseByDB
                 }
-            } 
+            }
         )
     } catch (error) {
         res.status(500).json(
@@ -26,6 +27,7 @@ exports.workDetailControllers = async (req, res) => {
             }
         )
     }
+    
 }
 
 
