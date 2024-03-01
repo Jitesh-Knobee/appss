@@ -1,14 +1,18 @@
 const mongoose = require("mongoose");
 
 //   Scheama  cities =>
+
 const cityScheama = new mongoose.Schema(
     {
-        name: {
-            type: String,
+        _id: {
+            type: Number,
             required: true
         },
-        state_id: {
+        name: {
             type: String,
+        },
+        state_id: {
+            type: Number,
             required: true
         }
     }

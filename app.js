@@ -1,5 +1,5 @@
 require('dotenv').config();
-const express = require('express')
+const express = require('express');
 const { main } = require("./config/db.js")
 const app = express();
 const path = require('path');
@@ -33,6 +33,7 @@ app.use(require("./routes/notificationRoutes.js"));
 app.use(require("./routes/advanceSearchRoutes.js"));
 
 app.use(require("./routes/workDetailRoutes.js"));
+
 app.use(require("./routes/educationDetailRoutes.js"));
 
 
@@ -40,7 +41,7 @@ app.use(require("./routes/educationDetailRoutes.js"));
 app.use(require('./routes/collageListsRoutes.js'));
 
 
-app.use('/countryInfo', require('./routes/countryRoutes.js'));
+app.use(require('./routes/addressRoutes.js'));
 
 
 app.use('/user', require('./routes/userRoutes'));

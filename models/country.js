@@ -18,7 +18,7 @@ let countryScheama = new Schema(
             require: true
         },
         countryCode: {
-            type: Number,
+            type: String,
             require: true
         },
         pattern: {

@@ -8,9 +8,9 @@ const educationDetailScheama = new Schema(
             type: {},
             required: true
         },
-        courseName: { 
+        courseName: {
             type: String,
-            required: true 
+            required: true
         },
         schoolOrCollageName: {
             type: String,

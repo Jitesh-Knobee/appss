@@ -16,7 +16,7 @@ exports.advanceSearchControllers = async (req, res) => {
                     gender: { $regex: new RegExp(gender, 'i') },
                     marital_status: { $regex: new RegExp(marital_status, 'i') },
                     age: { $gte: startAgeRange, $lte: endAgeRange }
-                }
+                } 
             );
 
             response.map(({ _id, ...remainedData }) => {

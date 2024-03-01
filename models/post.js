@@ -19,12 +19,12 @@ const postScheama = new mongoose.Schema(
         }
         ,
         share_count: {
-            type: String,
+            type: Number,
             default: 0
         }
         ,
         views: {
-            type: String,
+            type: Number,
             default: 0
         }
         ,
@@ -46,15 +46,15 @@ const postScheama = new mongoose.Schema(
         }
         ,
         is_hive_visibility: {
-            type: String
+            type: Boolean
         }
         ,
         is_mate_visibility: {
-            type: String
+            type: Boolean
         }
         ,
         is_public_visibility: {
-            type: String
+            type: Boolean
         }
         , is_closed_visibility: {
             type: Boolean
