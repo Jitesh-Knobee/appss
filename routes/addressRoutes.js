@@ -9,9 +9,7 @@ router.get('/country', countryControllers);
 // Cities Routes => 
 router.get('/city/:cityName?', citiesControllers)
 
-
-
-
+ 
 // get state vs country basis of the city =>
 router.get('/cityInfo/:city?', getStateAndCountry)
 
