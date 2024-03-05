@@ -9,8 +9,8 @@ const settingSchema = new Schema(
         oldServerPlatform: {},
         oldServerAndFrameworkVersion: {},
         defaultSound: {}
-    }
+    } 
 )
-
+  
 
 module.exports = model("setting", settingSchema)

@@ -40,7 +40,7 @@ router.post('/savePost', upload.array('filesdata', 30), async (req, res) => {
 
         switch (post_type) {
             case '1':
-                savePost = new PostModel({
+                savePost = new PostModel({ 
                     user_id: userID, 
                     post_type: post_type,
                     post_content: post_content,
