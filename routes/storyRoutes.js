@@ -1,14 +1,14 @@
 const { Router } = require("express")
 const { storyControllers } = require("../controllers/storyControllers.js")
 const router = Router();
-
+const path = require("path")
 
 const multer = require("multer")
 
 const storage = multer.diskStorage(
     {
         destination: function (req, file, cb) {
-            cb(null, 'hello/');
+            cb(null, path.join(process.cwd(), 'img', 'UserStory'));
         },
         filename: function (req, file, cb) {
             cb(null, file.originalname);
@@ -16,14 +16,9 @@ const storage = multer.diskStorage(
     }
 );
 
-console.log(multer,"<<<< ==== the storage object is ")
-
-// Initialize Multer instance
 const uploads = multer({ storage: storage });
 
-
-
-// get router => 
-router.post("/story", uploads.single('image'), storyControllers)
+// post router => 
+router.post("/story", uploads.array('Image&videos'), storyControllers)
 
 module.exports = router;

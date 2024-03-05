@@ -7,7 +7,6 @@ const cors = require("cors")
 
 app.use(cors());
 
- 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/img/flag', express.static(path.join(__dirname, 'img', 'Flag')));

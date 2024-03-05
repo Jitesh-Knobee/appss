@@ -16,7 +16,7 @@ const post_imagesSheama = new Schema(
             default: 0
         },
         views: {
-            type: Number,
+            type: Number, 
             default: 0
         },
         filename: {

@@ -1,21 +1,63 @@
 const StoryCollections = require("../models/story.js")
-const multer = require("multer")
- 
-// get route for story =>
+const StoryFileCollections = require("../models/storyFiles.js")
+const UserCollections = require("../models/main.js");
+const path = require("path")
 
-exports.storyControllers = async (req, res, next) => {
+
+// get route for story =>
+exports.storyControllers = async (req, res) => {
     try {
-        // let [{ user_Id, storyType, massage, fileName, timeStamp }] = req.body;
-        // let response = await StoryCollections.create(req.body);
-        // res.status(200).json(
-        //     {
-        //         status: 200,
-        //         massage: 'data saved successfully',
-        //         results: response
-        //     }
-        // )
-    } catch (error) {
-        res.send(500).json(
+        let { user_Id, storyType, timeStamp } = req.body;
+
+        let response;
+
+        switch (storyType) {
+            case 1:
+                response = await StoryCollections.create(req.body);
+                break;
+            case 2:
+                response = await StoryCollections.create(
+                    {
+                        user_Id: user_Id,
+                        storyType, storyType,
+                        massage: "",
+                        timeStamp: timeStamp
+                    }
+                )
+                // Upload Files Data =>
+                let { _id } = response;
+
+                let filesData = req.files.map(({ filename, mimetype, size }) => {
+                    return {
+                        storyId: _id,
+                        fileName: filename,
+                        fileMime: mimetype,
+                        fileSize: size,
+                        created: Date.now()
+                    }
+                })
+
+                await StoryFileCollections.insertMany(filesData)
+                break;
+            default:
+                res.json(
+                    {
+                        status: 500,
+                        massage: "No Text/File Found"
+                    }
+                )
+
+        }
+        res.json(
+            {
+                status: 200,
+                massage: "Story saved successfully",
+                results: response
+            }
+        )
+    }
+    catch (error) {
+        res.status(500).json(
             {
                 status: 500,
                 massage: "server error",
@@ -24,22 +66,3 @@ exports.storyControllers = async (req, res, next) => {
         )
     }
 }
-
-
-
-//     let dummy = [
-//     {
-//         "user_Id": "user123",
-//         "storyType": 1,
-//         "massage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//         "fileName": "image1.jpg",
-//         "timeStamp": "2024-03-04T12:00:00Z"
-//     },
-//     {
-//         "user_Id": "user456",
-//         "storyType": 2,
-//         "massage": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//         "fileName": "video1.mp4",
-//         "timeStamp": "2024-03-04T13:30:00Z"
-//     },
-// ]

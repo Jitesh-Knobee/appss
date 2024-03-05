@@ -7,7 +7,10 @@ const dataSchema = new mongoose.Schema(
             type: String,
             maxlength: 255 // Maximum length similar to VARCHAR(255)
         },
-        Middlename: { type: String, maxlength: 100 },// Example maximum length
+        Middlename: {
+            type: String,
+            maxlength: 100
+        },// Example maximum length
 
         Lastname: {
             type: String,
